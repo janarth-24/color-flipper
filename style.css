@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem ; 
+    border-bottom: 0.2em solid black;
+    color:     #E97451;
+}
+#color{
+    position: absolute;
+    right: 0;
+    padding-right: 0.5rem;
+    
+}
+#wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100wh;
+    height: 90vh;
+}
+button{
+    padding: 0.3rem;
+    background-color: #E97451;
+    border: none;
+    border-radius: 0.4rem;
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+button:hover{
+    cursor: pointer;
+}
